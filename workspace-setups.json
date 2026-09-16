@@ -1,0 +1,58 @@
+{
+  "setups": [
+    {
+      "name": "Betconections",
+      "apps": [
+        {
+          "workspace": 1,
+          "command": "code /run/media/karel/Work/Dev/Informage/whish-whitelabel-web"
+        },
+        {
+          "workspace": 2,
+          "command": "firefox"
+        },
+        {
+          "workspace": 3,
+          "command": "code /run/media/karel/Work/Dev/Informage/whish-whitelabel-admin"
+        },
+        {
+          "workspace": 4,
+          "command": "firefox"
+        },
+        {
+          "workspace": 9,
+          "command": "spotify"
+        },
+        {
+          "workspace": 10,
+          "command": "firefox"
+        }
+      ],
+      "icon": "🌐",
+      "switchTo": 1
+    },
+    {
+      "name": "Doteo",
+      "apps": [
+        {
+          "workspace": 9,
+          "command": "spotify"
+        },
+        {
+          "workspace": 7,
+          "command": "steam"
+        },
+        {
+          "workspace": 7,
+          "command": "steam steam://open/friends"
+        },
+        {
+          "workspace": 8,
+          "command": "steam steam://rungameid/570"
+        }
+      ],
+      "icon": "🎮",
+      "switchTo": 8
+    }
+  ]
+}

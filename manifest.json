@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "karel.workspace-setups",
+  "name": "Workspace Setups",
+  "version": "1.0.0",
+  "author": "karel",
+  "description": "Abre conjuntos de apps en sus escritorios configurados desde un icono de la barra",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Workspace Setups",
+    "description": "Icono con lista de espacios de trabajo; abre sus apps en los escritorios asignados",
+    "category": "Workspace",
+    "allowMultiple": false
+  }
+}
