@@ -20,6 +20,22 @@ workspaces, silently, and then focuses the workspace you choose.
 omarchy plugin add https://github.com/KarelDiaz/workspaces-setups.git --enable
 ```
 
+## Uninstall
+
+```bash
+# Disable the bar widget (optional, keeps the plugin installed)
+omarchy plugin disable kareldiaz.workspace-setups
+
+# Remove the plugin completely
+omarchy plugin remove kareldiaz.workspace-setups
+```
+
+Optionally delete your setups config:
+
+```bash
+rm ~/.config/omarchy/workspace-setups.json
+```
+
 ## Dependencies
 
 - `hyprctl`, `uwsm-app` (ship with Omarchy/Hyprland)
