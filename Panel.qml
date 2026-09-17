@@ -91,12 +91,12 @@ Item {
   Process {
     id: launchProc
     property string idx: "0"
-    command: ["bash", Quickshell.env("HOME") + "/.config/omarchy/workspace-setups/launch.sh", idx]
+    command: ["bash", Quickshell.env("HOME") + "/.config/omarchy/plugins/kareldiaz.workspace-setups/launch.sh", idx]
   }
 
   Process {
     id: managerProc
-    command: ["python3", Quickshell.env("HOME") + "/.config/omarchy/workspace-setups/workspace_setups.py"]
+    command: ["python3", Quickshell.env("HOME") + "/.config/omarchy/plugins/kareldiaz.workspace-setups/workspace_setups.py"]
   }
 
   // Sondea el archivo busy para mostrar el spinner mientras corre el setup.
