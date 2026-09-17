@@ -1,0 +1,4 @@
+# Personal user config — never publish
+workspace-setups.json
+__pycache__/
+*.pyc

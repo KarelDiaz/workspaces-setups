@@ -1,0 +1,14 @@
+{
+  "setups": [
+    {
+      "name": "Web dev",
+      "icon": "🌐",
+      "switchTo": 1,
+      "apps": [
+        { "workspace": 1, "command": "code" },
+        { "workspace": 2, "command": "firefox" },
+        { "workspace": 9, "command": "spotify" }
+      ]
+    }
+  ]
+}

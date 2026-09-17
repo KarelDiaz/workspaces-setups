@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "karel.workspace-setups",
+  "id": "kareldiaz.workspace-setups",
   "name": "Workspace Setups",
   "version": "1.0.0",
-  "author": "karel",
-  "description": "Abre conjuntos de apps en sus escritorios configurados desde un icono de la barra",
+  "author": "Karel Diaz Alfonso",
+  "description": "Open named sets of apps on their configured workspaces from a bar icon",
   "kinds": [
     "bar-widget"
   ],
@@ -13,8 +13,9 @@
   },
   "barWidget": {
     "displayName": "Workspace Setups",
-    "description": "Icono con lista de espacios de trabajo; abre sus apps en los escritorios asignados",
+    "description": "Bar icon listing workspace setups; opens each setup's apps on their assigned workspaces",
     "category": "Workspace",
-    "allowMultiple": false
+    "allowMultiple": false,
+    "defaultSection": "right"
   }
 }
