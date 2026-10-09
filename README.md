@@ -5,6 +5,8 @@ work environments and open everything you need with a single click from the
 status bar. Each setup launches its apps on their assigned Hyprland
 workspaces, silently, and then focuses the workspace you choose.
 
+![Preview](preview.webp)
+
 ## Features
 
 - Bar icon listing your configured setups with a busy spinner while launching
